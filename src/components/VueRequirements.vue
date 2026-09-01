@@ -29,7 +29,7 @@ h3 {
 }
 
 p {
-  color: #5d4c75;
+  color: #3d164d;
   line-height: 1.7;
   margin: 0 0 12px;
 }
@@ -42,7 +42,7 @@ p {
 ul {
   margin: 0;
   padding-left: 20px;
-  color: #5d4c75;
+  color: #3d164d;
   line-height: 1.8;
 }
 </style>

@@ -26,7 +26,7 @@ h3 {
 }
 
 p {
-  color: #5d4c75;
+  color: #3d164d;
   line-height: 1.7;
   margin: 0;
 }

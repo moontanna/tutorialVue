@@ -1,60 +1,16 @@
-<script setup lang="ts">
-const comandosVue = [
-	{
-		nombre: 'npm install -g @vue/cli',
-		paraQueSirve: 'instala Vue CLI de forma global para crear y administrar proyectos Vue.',
-	},
-	{
-		nombre: 'vue create "nombre-del-proyecto"',
-		paraQueSirve: 'crea un nuevo proyecto de Vue con el nombre indicado.',
-	},
-	{
-		nombre: 'npm install',
-		paraQueSirve: 'instala las dependencias definidas en package.json.',
-	},
-	{
-		nombre: 'npm run dev',
-		paraQueSirve: 'inicia el servidor de desarrollo para ejecutar la aplicación localmente.',
-	},
-]
-</script>
+<script setup lang="ts"></script>
 
 <template>
-	
-  <section class="counter-wrapper2">
-    <h3 class="header">Crear un proyecto con Vite</h3>
-
-    <p class="instruction">
-      Para crear un proyecto con Vite, puedes usar el siguiente comando:
-       <strong>npm create vite@latest nombre-del-proyecto</strong>
-    </p>
-
-    <p class="instruction">
-      Después, navega al directorio del proyecto y ejecuta:
-       <strong>cd nombre-del-proyecto</strong>
-    </p>
-
-    <p class="instruction">
-      Instala las dependencias:
-       <strong>npm install</strong>
-    </p>
-
-    <p class="instruction">
-      Inicia el servidor de desarrollo:
-      <strong>npm run dev</strong>
-    </p>
+  <section class="topic-card">
+    <h3>3. Pasos para la generación de un proyecto</h3>
+    <ol>
+      <li>Instala Node.js y npm.</li>
+      <li>Crea el proyecto con Vite.</li>
+      <li>Instala las dependencias con npm install.</li>
+      <li>Ejecuta el proyecto con npm run dev.</li>
+      <li>Abre la aplicación en el navegador para verla en funcionamiento.</li>
+    </ol>
   </section>
-  <section class="wiki-section">
-		<div class="section-card comandos-card">
-			<h3>Comandos básicos de Vue y npm</h3>
-			<div class="comandos">
-				<div v-for="(comando, index) in comandosVue" :key="index" class="comando">
-					<strong>{{ comando.nombre }}</strong>
-					<span>{{ comando.paraQueSirve }}</span>
-				</div>
-			</div>
-		</div>
-    </section>
 </template>
 
 <style scoped>
@@ -74,7 +30,7 @@ h3 {
 ol {
   margin: 0;
   padding-left: 20px;
-  color: #5d4c75;
+  color: #3d164d;
   line-height: 1.8;
 }
 </style>
