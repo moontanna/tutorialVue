@@ -1,24 +1,30 @@
 <script setup lang="ts">
 import HeaderComponent from './components/HeaderComponent.vue'
-import Body2Component from './components/Body2Component.vue'
-import BodyFirstComponent from './components/BodyFirstComponent.vue'
+import WhatIsFramework from './components/WhatIsFramework.vue'
+import VueRequirements from './components/VueRequirements.vue'
+import CreateAproject from './components/CreateAproject.vue'
+import ArchiveStructure from './components/ArchiveStructure.vue'
+import WhatIsComponent from './components/WhatIsComponent.vue'
 
 </script>
 
 <template>
-  <div>
+  <div class="page-shell">
     <HeaderComponent />
-  </div>
-
- <div>
-    <BodyFirstComponent />
-  </div>
-
-  <div>
-    <Body2Component />
-  </div>
-
-  <div>
-    <HelloSnipet />
+    <WhatIsFramework />
+    <VueRequirements />
+    <CreateAproject />
+    <ArchiveStructure />
+    <WhatIsComponent />
+  
   </div>
 </template>
+
+<style scoped>
+.page-shell {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+  background: #f7f2fa;
+}
+</style>
